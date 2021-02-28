@@ -24,16 +24,7 @@
     margin:0 auto;
     margin-left:50px ;
 }
-/* .float-left{
-    float: left;
-} */
-/* .clearfix::after{
 
-    display: table;
-    content:"";
-    clear: both;
-
-} */
 .list{
     display: inline-block;
     margin-top:10px ;
@@ -67,6 +58,85 @@ nav{
 }
 main{
     margin-left: 50px;
-     margin-right: 50px;
+    margin-right: 50px;
 }
 
+.border{
+    margin-top: 50px;
+}
+
+.font-size{
+font-size: 3rem
+
+}
+
+
+.small-font{
+    font-size: 20px;
+
+}
+.color-grey{
+color: rgba(128, 128, 128, 0.589);
+}
+.clearfix::after{
+    display: table;
+    content:"";
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+.col{
+    width:25%;
+}
+section h3{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+section p{
+    font-size:15px;
+    color:rgba(128, 128, 128, 0.589); ;
+}
+.col-center {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+/* .product-image > img{
+    
+    width: 100%;
+} */
+ a{
+    text-decoration: none;
+    color: inherit;
+}
+footer > span{
+    color: red;
+}
+footer{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+.image-bg{
+    height:200px;
+    background-position:center;
+    background-size:contain;
+    font-size:inherit;
+    border-radius: 20px;
+    margin-right:20px;
+}
+.plant{
+    background-image: url(img/img-1.jpg);
+    
+}
+div > .banner{
+    background-image:url(img/banner-2.jpg);
+}
+.col2{
+    width:50%;
+}
+.light{
+    background-image: url(img/img-2.jpg);
+}
